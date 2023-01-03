@@ -1,4 +1,8 @@
 print("hello")
 
-int good = 0
+good = 0
 print(good)
+
+bad = 1
+
+print(bad)
