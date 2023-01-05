@@ -1,8 +1,6 @@
 print("hello")
 
-good = 0
-print(good)
+def joe():
+    print("joe mama xd")
 
-bad = 1
-
-print(bad)
+joe()
