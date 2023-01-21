@@ -5,7 +5,7 @@ message = ""
 
 for letter in word:
     index = alphabet.index(letter)
-    adjust_letter = index + shift
-    cipher_letter = alphabet[adjust_letter]
+    adjust_index = index + shift
+    cipher_letter = alphabet[adjust_index]
     message += cipher_letter
 print(message)
