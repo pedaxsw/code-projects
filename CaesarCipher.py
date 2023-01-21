@@ -1,5 +1,5 @@
 word = input("Give me a word you wanna cipher: ")
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 shift = int(input("how many letters you wanna shift message by? "))
 message = ""
 
