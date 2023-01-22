@@ -7,26 +7,26 @@ print(options[pc_choice])
 
 quess = input("Choose from Rock, Paper, Scissors: ")
 
-if quess.lower() == Rock and pc_choice == Scissors:
+if quess == "Rock" and pc_choice == 2:
     print("You won!")
-elif quess.lower() == Rock and pc_choice == Paper:
+elif quess == "Rock" and pc_choice == 1:
     print("PC won!")
-elif quess.lower() == Rock and pc_choice == Rock:
+elif quess == "Rock" and pc_choice == 0:
     print("Tie!")
 
-elif quess.lower() == Scissors and pc_choice == Scissors:
+elif quess == "Scissors" and pc_choice == 2:
     print("Tie!")
-elif quess.lower() == Scissors and pc_choice == Paper:
+elif quess == "Scissors" and pc_choice == 1:
     print("You won!")
-elif quess.lower() == Scissors and pc_choice == Rock:
+elif quess == "Scissors" and pc_choice == 0:
     print("Pc won!")
 
-elif quess.lower() == Paper and pc_choice == Scissors:
+elif quess == "Paper" and pc_choice == 2:
     print("PC won!")
-elif quess.lower() == Paper and pc_choice == Paper:
+elif quess == "Paper" and pc_choice == 1:
     print("Tie!")
-elif quess.lower() == Paper and pc_choice == Rock:
+elif quess == "Paper" and pc_choice == 0:
     print("You won!")
 
 else:
-    print("Please choose from Paper, Rock or Scissors...")
+    print("Please choose from Paper, Rock or Scissors..")
